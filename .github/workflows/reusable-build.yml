@@ -28,12 +28,12 @@ jobs:
           - ${{ inputs.fedora_version }}
         image_name:
           - silverblue
-          - kinoite
-          - sericea
-          - onyx
-          - base
-          - lazurite
-          - vauxite
+          #          - kinoite
+          #          - sericea
+          #          - onyx
+          #          - base
+          #          - lazurite
+          #          - vauxite
 
     steps:
       # Checkout push-to-registry action GitHub repository
