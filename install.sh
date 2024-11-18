@@ -42,6 +42,7 @@ fi
 
 # run common packages script
 /ctx/packages.sh
+/ctx/my.sh
 
 ## install packages direct from github
 /ctx/github-release-install.sh sigstore/cosign x86_64
