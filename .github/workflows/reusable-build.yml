@@ -175,7 +175,7 @@ jobs:
           string: ${{ env.IMAGE_REGISTRY }}
 
       - name: Push To GHCR
-        uses: Wandalen/wretry.action@v3.7.0
+        uses: Wandalen/wretry.action@v3.7.2
         id: push
         if: github.event_name != 'pull_request'
         env:
